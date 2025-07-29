@@ -4,7 +4,7 @@ export const Documents: Paths[] = [
   {
     heading: "DevJourney",
     title: "Story",
-    href: "/story",
+    href: "/introduction",
   },
   {
     heading: "Introduction",
