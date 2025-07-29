@@ -4,7 +4,7 @@ export const siteicon = "/icon.png"
 export const gtm = "GTM-XXXXXXX"
 export const gtmconnected = true
 
-export const sitename = "Documents"
+export const sitename = "XeyDocs"
 export const description =
   "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements."
 export const keywords = [
@@ -18,7 +18,7 @@ export const urlimage = "/images/og-image.png"
 export const imagealt = "Xeyyzu"
 export const twitterhandle = "@xeyyzu"
 
-export const companyname = "XeyLabs"
+export const companyname = "XEY COMPANY GROUP"
 export const companylink = "https://xeyyzu.my.id"
 
 export const branding = true
@@ -27,4 +27,4 @@ export const feedbackedit = true
 export const tableofcontent = true
 export const totopscroll = true
 
-export const loadfromgithub = false
+export const loadfromgithub = true
