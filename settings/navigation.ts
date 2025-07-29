@@ -8,7 +8,7 @@ export const Navigations = [
   {
     title: "story",
     href: `/story${PageRoutes[0].href}`,
-  }
+  },
   {
     title: "Home",
     href: "https://xeyyzu.my.id",
