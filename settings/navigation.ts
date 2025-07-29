@@ -6,10 +6,6 @@ export const Navigations = [
     href: `/docs${PageRoutes[0].href}`,
   },
   {
-    title: "story",
-    href: `/story${PageRoutes[0].href}`,
-  },
-  {
     title: "Home",
     href: "https://xeyyzu.my.id",
     external: true,
