@@ -52,9 +52,12 @@ async function parseMdx<Frontmatter>(rawMdx: string) {
 }
 
 const documentPath = (slug: string) => {
+  const basePath = slug.startsWith("story/") ? "contents/story" : "contents/docs"
+  const cleanedSlug = slug.startsWith("story/") ? slug.substring(6) : slug
+
   return Settings.gitload
-    ? `${GitHubLink.href}/raw/main/contents/docs/${slug}/index.mdx`
-    : path.join(process.cwd(), "/contents/docs/", `${slug}/index.mdx`)
+    ? `${GitHubLink.href}/raw/main/${basePath}/${cleanedSlug}/index.mdx`
+    : path.join(process.cwd(), `/${basePath}/`, `${cleanedSlug}/index.mdx`)
 }
 
 const getDocumentPath = (() => {
@@ -114,9 +117,9 @@ export async function getTable(
     href: string
   }> = []
   let rawMdx = ""
+  const contentPath = getDocumentPath(slug)
 
   if (Settings.gitload) {
-    const contentPath = `${GitHubLink.href}/raw/main/contents/docs/${slug}/index.mdx`
     try {
       const response = await fetch(contentPath)
       if (!response.ok) {
@@ -130,11 +133,6 @@ export async function getTable(
       return []
     }
   } else {
-    const contentPath = path.join(
-      process.cwd(),
-      "/contents/docs/",
-      `${slug}/index.mdx`
-    )
     try {
       const stream = createReadStream(contentPath, { encoding: "utf-8" })
       for await (const chunk of stream) {

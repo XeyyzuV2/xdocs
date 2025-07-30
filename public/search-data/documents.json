@@ -1,6 +1,6 @@
 [
   {
-    "slug": "/basic-setup/changelog",
+    "slug": "/docs/basic-setup/changelog",
     "title": "Changelog",
     "description": "Changelogs and improvements to the Documents projects.",
     "content": "## Added\n\n**Linting and Formatting**:\n\n* Added `npm run lint` and `npm run lint:fix` scripts to automate linting tasks.\n* Added `npm run format` and `npm run format:check` scripts to ensure consistent code formatting.\n\n**SEO Enhancements**:\n\n* Added an SEO component to MDX pages to dynamically include `keywords` and `lastModified` metadata for improved SEO generation.\n\n## Updated\n\n**Next.js Upgrade**:\n\n* Upgraded the project from **Next.js 14** to **Next.js 15**, leveraging the latest features and performance improvements.\n\n**Codebase Improvements**:\n\n* Reordered imports across the project files for better consistency and readability.\n\n**Mermaid Component**:\n\n* Fixed an ID bug that caused rendering issues when multiple Mermaid diagrams were included in MDX pages.\n* Improved initialization and rendering logic to prevent duplicate diagram rendering.\n",
@@ -34,49 +34,46 @@
     }
   },
   {
-    "slug": "/basic-setup",
+    "slug": "/docs/basic-setup",
     "title": "Introduction",
-    "description": "This section provides an overview of how to get started with the Documents, Next.js Document Starter Kit.",
-    "content": "![Banner](/images/banner.png \"Documents\")\n\n## Documents\n\n**Documents** is a lightweight, modular starter kit built with **Next.js**, **React**, **Tailwind CSS**, and **TypeScript**. It’s designed to help you\nlaunch structured, professional documentation without spending time on boilerplate.\n\nWhether you're building product manuals, internal systems guides, or dev documentation, Documents gives you a clean foundation that’s easy to\nextend and maintain.\n\n## Why use Documents?\n\nThis kit was built to simplify how teams manage and publish documentation. It works across projects of all sizes—from a single\nreadme to enterprise knowledge bases.\n\nWith MDX, reusable components, and Tailwind styling, it keeps your workflow efficient without compromising flexibility.\n\nUse it for:\n\n* **Product Guides** – Setup, usage, and troubleshooting\n* **Internal Docs** – Processes, policies, and team references\n* **Technical Manuals** – APIs, SDKs, architecture walkthroughs\n\nCustomize the UI and structure to match your brand or workflow—no lock-in.\n\n## Core Features\n\n| Feature                              | Description                                                                 |\n| ------------------------------------ | --------------------------------------------------------------------------- |\n| **Write in Markdown/MDX**            | Combine Markdown with components and Mermaid.js for rich content.           |\n| **Flexible Navigation**              | Multi-level menus, page hierarchy, and auto-generated TOCs.                 |\n| **Code Support**                     | Syntax highlighting, code tabs, and one-click copy.                         |\n| **Search**                           | Fuzzy matching with highlight and instant results.                          |\n| **Responsive Design**                | Built-in light/dark mode with mobile support.                               |\n| **Math + Tables**                    | LaTeX rendering and clean table styling.                                    |\n| **SEO Defaults**                     | Preconfigured meta, Open Graph, and structured data.                        |\n| **AI Docs (Upcoming)**               | AI tools for smart search and content generation (coming soon).             |\n\n## Using This Kit\n\nNavigation is on the left. Pages flow from setup to advanced features, but you're free to jump around.\n\nUse the table of contents on the right to skip through sections.\n\nStart with the [Installation Guide](/docs/basic-setup/installation).\n\n## Community Support\n\nGot questions? Reach out via:\n\n* [GitHub](https://github.com/rubixvi/rubix-documents)\n* [Twitter](https://x.com/rubixstory)\n* [Facebook](https://www.facebook.com/rubixstudios)\n",
+    "description": "Dokumentasi ini adalah catatan perjalanan gue di dunia programming, dari nol sampai terus berkembang.",
+    "content": "![Banner](/images/banner.png \"My Dev Journey\")\n\n## My Dev Journey\n\nSelamat datang di **My Dev Journey**!\\\nIni bukan sekadar dokumentasi—ini **cerita perjalanan gue** sebagai seorang developer yang terus belajar, bereksperimen, dan berkembang setiap harinya.\n\nDi sini, gue bakal nyimpen semua hal yang gue pelajari: mulai dari dasar-dasar **HTML, CSS**, hingga masuk ke dunia yang lebih kompleks kayak **JavaScript**, framework modern, sampai project-project pribadi yang kadang absurd tapi bikin seru. 🚀\n\n## Kenapa Gue Bikin Docs Ini?\n\nKarena gue percaya setiap baris kode yang gue tulis itu punya cerita.\\\nGue pengen bikin tempat di mana **gue bisa ngelihat growth gue sendiri** dan mungkin… bisa jadi inspirasi buat lo yang lagi belajar juga.\n\nGue bakal update terus, jadi docs ini akan **berkembang bareng gue**.\n\n### 🎯 Lo bakal nemuin:\n\n* 📚 **Catatan belajar** – step by step apa yang gue pelajari\n* 🧪 **Eksperimen liar** – project random buat nguji skill\n* 💡 **Insight pribadi** – tips, kesalahan, dan apa yang gue pelajari dari itu semua\n\n## Core Goals\n\n| Fokus                              | Deskripsi                                                                 |\n| ---------------------------------- | ------------------------------------------------------------------------- |\n| **Belajar Konsisten**              | Gue bikin docs ini buat memaksa diri gue belajar tiap hari.               |\n| **Berbagi Pengetahuan**            | Siapa tau ada yang nyasar ke sini dan ikut terbantu.                      |\n| **Dokumentasi Diri**               | Melihat progres itu priceless, bro.                                       |\n| **Open & Evolutive**               | Docs ini akan terus berubah seiring gue berkembang.                       |\n\n***\n\n✨ **Let’s code, fail, learn, and grow together.**\n\n> Mulai dari [The Beginning](/story/beginning) dan ikutin perjalanan gue.\n",
     "_searchMeta": {
-      "cleanContent": "banner documents documents is a lightweight modular starter kit built with next js react tailwind css and typescript it s designed to help you launch structured professional documentation without spending time on boilerplate whether you re building product manuals internal systems guides or dev documentation documents gives you a clean foundation that s easy to extend and maintain why use documents this kit was built to simplify how teams manage and publish documentation it works across projects of all sizes from a single readme to enterprise knowledge bases with mdx reusable components and tailwind styling it keeps your workflow efficient without compromising flexibility use it for: product guides setup usage and troubleshooting internal docs processes policies and team references technical manuals apis sdks architecture walkthroughs customize the ui and structure to match your brand or workflow no lock-in core features feature description------------------------------------ ---------------------------------------------------------------------------write in markdown mdx combine markdown with components and mermaid js for rich content flexible navigation multi-level menus page hierarchy and auto-generated tocs code support syntax highlighting code tabs and one-click copy search fuzzy matching with highlight and instant results responsive design built-in light dark mode with mobile support math tables latex rendering and clean table styling seo defaults preconfigured meta open graph and structured data ai docs upcoming ai tools for smart search and content generation coming soon using this kit navigation is on the left pages flow from setup to advanced features but you re free to jump around use the table of contents on the right to skip through sections start with the installation guide community support got questions reach out via: github twitter facebook",
+      "cleanContent": "banner my dev journey selamat datang di my dev journey ini bukan sekadar dokumentasi ini cerita perjalanan gue sebagai seorang developer yang terus belajar bereksperimen dan berkembang setiap harinya di sini gue bakal nyimpen semua hal yang gue pelajari: mulai dari dasar-dasar html css hingga masuk ke dunia yang lebih kompleks kayak javascript framework modern sampai project-project pribadi yang kadang absurd tapi bikin seru kenapa gue bikin docs ini karena gue percaya setiap baris kode yang gue tulis itu punya cerita gue pengen bikin tempat di mana gue bisa ngelihat growth gue sendiri dan mungkin bisa jadi inspirasi buat lo yang lagi belajar juga gue bakal update terus jadi docs ini akan berkembang bareng gue lo bakal nemuin: catatan belajar step by step apa yang gue pelajari eksperimen liar project random buat nguji skill insight pribadi tips kesalahan dan apa yang gue pelajari dari itu semua core goals fokus deskripsi---------------------------------- -------------------------------------------------------------------------belajar konsisten gue bikin docs ini buat memaksa diri gue belajar tiap hari berbagi pengetahuan siapa tau ada yang nyasar ke sini dan ikut terbantu dokumentasi diri melihat progres itu priceless bro open evolutive docs ini akan terus berubah seiring gue berkembang let s code fail learn and grow together mulai dari the beginning dan ikutin perjalanan gue",
       "headings": [
-        "Documents",
-        "Why use Documents?",
-        "Core Features",
-        "Using This Kit",
-        "Community Support"
+        "My Dev Journey",
+        "Kenapa Gue Bikin Docs Ini?",
+        "Core Goals"
       ],
       "keywords": [
-        "introduction",
-        "guide",
-        "nextjs",
-        "documents",
-        "Documents",
-        "Why use Documents?",
-        "Core Features",
-        "Using This Kit",
-        "Community Support",
-        "Next.js",
-        "React",
-        "Tailwind CSS",
-        "TypeScript",
-        "Product Guides",
-        "Internal Docs",
-        "Technical Manuals",
-        "Write in Markdown/MDX",
-        "Flexible Navigation",
-        "Code Support",
-        "Search",
-        "Responsive Design",
-        "Math + Tables",
-        "SEO Defaults",
-        "AI Docs (Upcoming)"
+        "developer journey",
+        "learning",
+        "javascript",
+        "html",
+        "css",
+        "story",
+        "docs",
+        "My Dev Journey",
+        "Kenapa Gue Bikin Docs Ini?",
+        "Core Goals",
+        "cerita perjalanan gue",
+        "HTML, CSS",
+        "JavaScript",
+        "gue bisa ngelihat growth gue sendiri",
+        "berkembang bareng gue",
+        "Catatan belajar",
+        "Eksperimen liar",
+        "Insight pribadi",
+        "Belajar Konsisten",
+        "Berbagi Pengetahuan",
+        "Dokumentasi Diri",
+        "Open & Evolutive",
+        "✨"
       ]
     }
   },
   {
-    "slug": "/basic-setup/installation",
+    "slug": "/docs/basic-setup/installation",
     "title": "Installation",
     "description": "This guide covers the installation of Documents and how to edit your new project.",
     "content": "To install and edit the Documents, you need to have several prerequisites in place. Here's a list of all the essential pre-requisites\nfor setting up and working on this project.\n\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents\\&project-name=my-documents\\&repository-name=my-documents\\&demo-title=Documents\\&demo-description=This%20Document%20Starter%20Kit%20is%20developed%20with%20Next.js%2C%20Tailwind%20CSS%20and%20TypeScript.%20It%20serves%20as%20a%20flexible%20and%20scalable%20foundation%20for%20building%20documentation%20websites%20or%20content-driven%20projects.\\&demo-url=https%3A%2F%2Frubix-documents.vercel.app%2F\\&demo-image=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents%2Fblob%2Fmain%2Fpublic%2Fscreens%2Fscreen-1.png)\n\n## Prerequisites\n\n## Installation\n\n## Optional\n\n## Important Information\n\nThe project's search functionality relies on the Husky's automation to build `search-data/documents.json` ensure git commit is performed to generate this file.\n",
@@ -104,7 +101,7 @@
     }
   },
   {
-    "slug": "/basic-setup/setup",
+    "slug": "/docs/basic-setup/setup",
     "title": "Setup",
     "description": "Setting up and configuring your documentation project",
     "content": "Setting up your new documentation project is straightforward. Most of the essential project settings can be configured within the `settings` folder.\n\n## Settings\n\nThis section provides the core settings for your documentation site, such as defining the site's URL, site icon and title.\n\n```tsx showLineNumbers\nexport const url = \"\"                 // The URL for your documentation site\nexport const siteicon = \"\"            // Icon displayed next to the site name in the header\nexport const sitename = \"\"            // Title of your documentation site\n```\n\n## Google Tags\n\nThis section allows you to integrate Google Tag Manager into your documentation project. You can add your GTM code and configure whether it's connected.\n\n```tsx showLineNumbers\nexport const gtm = \"\"                 // Add your Google Tag Manager code here\nexport const gtmconnected = true      // Set to true if GTM is connected, otherwise set to false\n```\n\n## Search Engine\n\nConfigure essential SEO settings to ensure your documentation site is optimized for search engines. This includes meta descriptions, keywords and social media sharing details like images and alt text.\n\n```tsx showLineNumbers\nexport const description = \"\"         // Description of your documentation site for SEO\nexport const keywords = [\"\", \"\"]      // List of SEO keywords for your documentation site\nexport const urlimage = \"\"            // The URL of the image used when sharing on social media)\nexport const imagealt = \"\"            // Alt text for shared images, helpful for screen readers\nexport const twitterhandle = \"\"       // Your company’s Twitter handle for social sharing\n```\n\n## Footer Branding\n\nThe footer settings allow you to customize the company information displayed at the bottom of the site. You can add the company name and the URL that the name will link to.\n\n```tsx showLineNumbers\nexport const companyname = \"\"         // The company name displayed in the copyright section\nexport const companylink = \"\"         // The URL your company name should link to\n```\n\n## General Layout\n\nThe layout settings control the appearance and functionality of various elements of the documentation site, such as branding, the right sidebar, feedback options, table of contents, and scroll-to-top functionality.\n\n```tsx showLineNumbers\nexport const branding = true          // Set to true to display our branding elements\nexport const rightsidebar = true      // Set to true to enable the right sidebar with feedback, table of contents and scroll-to-top\nexport const feedbackedit = true      // Control to enable/disable feedback on GitHub\nexport const tableofcontent = true    // Control to enable/disable the generated table of contents\nexport const totopscroll = true       // Control to enable/disable scroll-to-top button\n```\n\n## Github Control\n\nIf your MDX files are hosted on GitHub, you can configure the project to load documents directly from there. This option can be useful for syncing documentation updates directly with your repository.\n\n```tsx showLineNumbers\nexport const loadfromgithub = false   // Set to true to load your MDX documents directly from GitHub\n```\n\n## Project Structure\n",
@@ -150,7 +147,7 @@
     }
   },
   {
-    "slug": "/markdown/cards",
+    "slug": "/docs/markdown/cards",
     "title": "Cards",
     "description": "Explore and implement various card styles, including small, large and image cards.",
     "content": "This section introduces the different card styles available in the system, from compact small cards to visually rich image cards. Each example is paired with JSX code snippets, providing you with a practical guide to incorporate these components seamlessly into your project.\n\n## Small Card\n\n```jsx\n<CardGrid>\n  <Card\n    title=\"Instructions\"\n    href=\"/docs/basic-setup/installation\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n    description=\"test description\"\n  />\n  <Card\n    title=\"Setup\"\n    href=\"/docs/basic-setup/setup\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n  />\n  <Card\n    title=\"Rubix Studios\"\n    href=\"https://rubixstudios.com.au\"\n    icon=\"alignJustify\"\n    external={true}\n    variant=\"small\"\n  />\n</CardGrid>\n```\n\n## Large Card\n\n```jsx\n<CardGrid>\n  <Card\n    subtitle=\"Instructions\"\n    title=\"Installation\"\n    description=\"Get started with Documents using our quick start installation guide to get your project started.\"\n    href=\"/docs/basic-setup/installation\"\n  />\n  <Card\n    subtitle=\"Setup\"\n    title=\"Site Settings\"\n    description=\"Setting up your Documents projects layout, links and search engine optimisation.\"\n    href=\"/docs/basic-setup/setup\"\n  />\n  <Card\n    subtitle=\"Support\"\n    title=\"Rubix Studios\"\n    description=\"Australia's leading branding, marketing and web development company.\"\n    href=\"https://rubixstudios.com.au\"\n    external={true}\n  />\n</CardGrid>\n```\n\n## Image Card\n\n```jsx\n<CardGrid>\n  <Card\n    title=\"Instructions\"\n    href=\"/docs/introduction/installation\"\n    image=\"/images/og-image.png\"\n    variant=\"image\"\n  />\n  <Card\n    title=\"Setup\"\n    href=\"/docs/introduction/setup\"\n    image=\"/images/og-image.png\"\n    variant=\"image\"\n  />\n  <Card\n    title=\"Rubix Studios\"\n    href=\"https://www.rubixstudios.com.au\"\n    image=\"/images/og-image.png\"\n    external={true}\n    variant=\"image\"\n  />\n</CardGrid>\n```\n",
@@ -174,7 +171,7 @@
     }
   },
   {
-    "slug": "/markdown/diagrams",
+    "slug": "/docs/markdown/diagrams",
     "title": "Diagrams",
     "description": "Add various diagram types, including flowcharts, decision trees and entity-relationship diagrams.",
     "content": "Diagrams are powerful tools for visualizing processes, relationships, and decisions. This section showcases different types of diagrams created using **Mermaid**, complete with examples and reusable code snippets to integrate into your projects.\n\n## Flowchart\n\nA flowchart represents a sequence of steps or processes in a visual format. Use this diagram to map workflows, decision-making processes, or operational flows.\n\n```jsx\n<Mermaid\n  chart={\\`\n    graph TD;\n    Start --> Task1;\n    Task1 --> Task2;\n    Task2 --> End;\n  \\`}\n/>\n```\n\n## Decision Tree\n\nDecision trees illustrate choices and possible outcomes, making them ideal for decision-making workflows or processes involving multiple paths.\n\n```jsx\n<Mermaid\n  chart={\\`\n    graph TD;\n    A[Start] --> B{Is it raining?};\n    B -->|Yes| C[Take an umbrella];\n    B -->|No| D[Enjoy the weather];\n    C --> E[Go outside];\n    D --> E;\n  \\`}\n/>\n```\n\n## Entity-Relationship Diagram\n\nEntity-relationship diagrams (ERDs) are used to model relationships between entities in a system. They are widely used in database design and system architecture planning.\n\n```jsx\n<Mermaid\n  chart={\\`\n    erDiagram\n    CUSTOMER ||--o{ ORDER : places\n    ORDER ||--|{ LINE-ITEM : contains\n    PRODUCT ||--o{ LINE-ITEM : \"included in\"\n    CUSTOMER {\n        string name\n        string email\n    }\n    ORDER {\n        int orderNumber\n        date orderDate\n    }\n    LINE-ITEM {\n        int quantity\n        float price\n    }\n    PRODUCT {\n        int productId\n        string name\n        float price\n    }\n  \\`}\n/>\n```\n\nEach of these diagrams serves a specific purpose and Mermaid makes it easy to generate them dynamically. Feel free to experiment with the provided code snippets and adapt them to your needs.\n",
@@ -198,7 +195,7 @@
     }
   },
   {
-    "slug": "/markdown/filetree",
+    "slug": "/docs/markdown/filetree",
     "title": "Filetree",
     "description": "This section provides an overview of file structures and their implementation using the FileTree component.",
     "content": "This section demonstrates the structure of a file tree using the `FileTree` component. Below is an example showcasing folders and files organized hierarchically for a project setup.\n\n## How to Use\n\nIntegrate the `FileTree` component into your project to visually represent file and folder structures. This is particularly useful for documentation, tutorials, or providing users with an overview of your project's architecture.\n\n### JSX Code Example\n\nHere is how you can define the file tree structure in for use in your project:\n\n```jsx\n<FileTree>\n  <Folder name=\"src\" label=\"Source Code\">\n    <File name=\"index.tsx\" label=\"Index File\" />\n    <Folder name=\"components\" label=\"Components\">\n      <File name=\"button.tsx\" label=\"Button Component\" />\n      <File name=\"input.tsx\" label=\"Input Component\" />\n    </Folder>\n    <Folder name=\"pages\" label=\"Pages\">\n      <File name=\"home.tsx\" label=\"Home Page\" />\n      <File name=\"about.tsx\" label=\"About Page\" />\n    </Folder>\n  </Folder>\n</FileTree>\n```\n\nUse this code as a template to set up your own file tree structure and customize it as needed.\n",
@@ -215,7 +212,7 @@
     }
   },
   {
-    "slug": "/markdown",
+    "slug": "/docs/markdown",
     "title": "Introduction",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n\n## Sample Document with Mermaid\n\nHere is a Mermaid diagram:\n\nThis diagram should render automatically without any extra imports.\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nThank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!\n",
@@ -238,7 +235,7 @@
     }
   },
   {
-    "slug": "/markdown/lists",
+    "slug": "/docs/markdown/lists",
     "title": "Lists",
     "description": "This section provides an overview of creating and using lists in the Documents boilerplate.",
     "content": "Learn how to create and render different types of lists in the Documents boilerplate. Examples include checklists, ordered lists, unordered lists and nested lists.\n\n## Checklist\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n```jsx\n- [x] Write the press release\n- [ ] Update the website\n- [ ] Contact the media\n```\n\n## Simple List\n\n* Item 1\n* Item 2\n* Item 3\n\n```jsx\n- Item 1\n- Item 2\n- Item 3\n```\n\n## Number List\n\n1. Research\n2. Draft the content\n3. Review and edit\n4. Publish\n\n```jsx\n1. Research\n2. Draft the content\n3. Review and edit\n4. Publish\n```\n\n## Nested List\n\n* Main Category 1\n  * Sub Item 1.1\n  * Sub Item 1.2\n* Main Category 2\n  * Sub Item 2.1\n  * Sub Item 2.2\n\n```jsx\n- Main Category 1\n  - Sub Item 1.1\n  - Sub Item 1.2\n- Main Category 2\n  - Sub Item 2.1\n  - Sub Item 2.2\n```\n\nUse these examples as a foundation to create and customize lists that fit your project's needs.\n",
@@ -266,7 +263,7 @@
     }
   },
   {
-    "slug": "/markdown/maths",
+    "slug": "/docs/markdown/maths",
     "title": "Maths",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n## Basic Algebra\n\nThe area of a circle ($$A$$) can be calculated using the radius ($$r$$) as follows:\n\n```math\nA = \\pi r^2\n```\n\n## Quadratic Formula\n\nThe quadratic formula for solving an equation of the form $$ax^2 + bx + c = 0$$ is:\n\n```math\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n```\n\n## Newton's Second Law of Motion\n\nNewton's second law of motion states that force ($$F$$) is the product of mass ($$m$$) and acceleration ($$a$$):\n\n```math\nF = ma\n```\n\n## Pythagorean Theorem\n\nThe Pythagorean theorem relates the lengths of the sides of a right triangle:\n\n```math\na^2 + b^2 = c^2\n```\n\n## Einstein's Mass-Energy Equivalence\n\nEinstein's famous equation relates energy ($$E$$), mass ($$m$$), and the speed of light ($$c$$):\n\n```math\nE = mc^2\n```\n",
@@ -298,7 +295,7 @@
     }
   },
   {
-    "slug": "/markdown/notes",
+    "slug": "/docs/markdown/notes",
     "title": "Notes",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n## Standard Note\n\n## Success Note\n\n## Warning Note\n\n## Danger Note\n",
@@ -319,7 +316,7 @@
     }
   },
   {
-    "slug": "/markdown/steps",
+    "slug": "/docs/markdown/steps",
     "title": "Steps",
     "description": "This section provides an overview of Introduction.",
     "content": "The `<Step>` and `<StepItem>` components allow you to create structured step-by-step guides in your documentation. These components are particularly useful when you want to break down a process or tutorial into easy-to-follow stages.\n\n## Steps\n\nTo create a step-by-step guide in your MDX, you can use the following structure:\n",
@@ -336,7 +333,7 @@
     }
   },
   {
-    "slug": "/markdown/table",
+    "slug": "/docs/markdown/table",
     "title": "Table",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n\n| Feature       | Documentation Link |                    Notes |\n| :------------ | :----------------: | -----------------------: |\n| **Feature A** |     [Docs](#)      | For more info click here |\n| **Feature B** |     [Guide](#)     |  See the full guide here |\n| **Feature C** |     [Setup](#)     |       Setup instructions |\n",
@@ -351,7 +348,7 @@
     }
   },
   {
-    "slug": "/markdown/tabs",
+    "slug": "/docs/markdown/tabs",
     "title": "Tabs",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n",
@@ -366,7 +363,7 @@
     }
   },
   {
-    "slug": "/navigation",
+    "slug": "/docs/navigation",
     "title": "Navigation",
     "description": "How to build our your documents menu and navigations.",
     "content": "",
@@ -384,7 +381,7 @@
     }
   },
   {
-    "slug": "/random",
+    "slug": "/docs/random",
     "title": "Introduction",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nAdding some random stuff to change the code\n",
@@ -405,7 +402,7 @@
     }
   },
   {
-    "slug": "/structure/deep/deeper/even-deeper",
+    "slug": "/docs/structure/deep/deeper/even-deeper",
     "title": "Introduction",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n",
@@ -416,7 +413,7 @@
     }
   },
   {
-    "slug": "/structure/deep/deeper",
+    "slug": "/docs/structure/deep/deeper",
     "title": "Introduction",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nThank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!\n\n## Tabs Example\n",
@@ -439,12 +436,12 @@
     }
   },
   {
-    "slug": "/structure/deep",
+    "slug": "/docs/structure/deep",
     "title": "Introduction",
     "description": "This section provides an overview of Introduction.",
-    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\r\n| :------------ | :---------: | ----------: |\r\n| Header        |    Title    | Here's this |\r\n| Paragraph     |    Text     |    And more |\r\n| Strikethrough |             |    ~~Text~~ |\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nThank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!\n\n## Tabs Example\n",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nThank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!\n\n## Tabs Example\n",
     "_searchMeta": {
-      "cleanContent": "lorem ipsum dolor sit amet consectetur adipisicing elit numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime molestiae facilis aperiam et error illum vel ullam quis architecto dolore ullam x write the press release update the website contact the media syntax description test text :------------ :---------: ----------: header title here s this paragraph text and more strikethrough text getting started to begin using the documentation template follow these simple steps: start by cloning the repository to your local machine lorem ipsum dolor sit amet consectetur adipisicing elit reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium optio necessitatibus sequi veritatis aspernatur possimus quis repellat eum vitae eveniet blockquotes blockquotes are useful for emphasizing key points or quoting external sources: documentation is a love letter that you write to your future self - damian conway feel free to use blockquotes to highlight important information or quotes relevant to your documentation code examples with switch here a custom tab component from shadcn ui is used conclusion thank you for choosing the documentation template for your project whether you re documenting software apis or processes we re here to support you in creating clear and effective documentation happy documenting tabs example",
+      "cleanContent": "lorem ipsum dolor sit amet consectetur adipisicing elit numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime molestiae facilis aperiam et error illum vel ullam quis architecto dolore ullam x write the press release update the website contact the media syntax description test text:------------ :---------: ----------:header title here s thisparagraph text and morestrikethrough text getting started to begin using the documentation template follow these simple steps: start by cloning the repository to your local machine lorem ipsum dolor sit amet consectetur adipisicing elit reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium optio necessitatibus sequi veritatis aspernatur possimus quis repellat eum vitae eveniet blockquotes blockquotes are useful for emphasizing key points or quoting external sources: documentation is a love letter that you write to your future self - damian conway feel free to use blockquotes to highlight important information or quotes relevant to your documentation code examples with switch here a custom tab component from shadcn ui is used conclusion thank you for choosing the documentation template for your project whether you re documenting software apis or processes we re here to support you in creating clear and effective documentation happy documenting tabs example",
       "headings": [
         "Getting Started",
         "Blockquotes",
@@ -462,7 +459,7 @@
     }
   },
   {
-    "slug": "/structure",
+    "slug": "/docs/structure",
     "title": "Structure",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nThank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!\n",
@@ -483,45 +480,105 @@
     }
   },
   {
-    "slug": "/story/introduction",
-    "title": "introduction",
-    "description": "This section provides an overview of Introduction.",
-    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nThank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!\n",
+    "slug": "/story/chapter",
+    "title": "Chapter 1 – The Beginning",
+    "description": "Awal mula perjalanan gue dalam dunia programming, ditulis seperti artikel koran.",
+    "content": "# 📰 Chapter 1 – The Beginning\n\n> *\"Setiap developer punya cerita pertama. Ini adalah cerita gue.\"*\n\n***\n\n## 🗞️ HEADLINE\n\n**\"Dari Nol, Seorang Pemuda Menemukan Dunia Coding\"**\n\n**Jakarta, 29 Juli 2025** – Di tengah malam yang sunyi, seorang pemuda bernama **Xeyyzu** memutuskan untuk mengetik baris kode pertamanya.\\\nTanpa mentor, tanpa roadmap jelas, hanya **rasa penasaran** yang menuntunnya ke dunia baru bernama **programming**.\n\n***\n\n## 📅 Timeline Perjalanan\n\n| Tanggal    | Peristiwa                                               |\n| ---------- | ------------------------------------------------------- |\n| 2025-07-29 | Menulis `console.log(\"Hello World\")` pertama kali.     |\n| 2025-07-30 | Belajar struktur dasar HTML & CSS.                     |\n| 2025-08-01 | Membuat halaman web sederhana pertama.                 |\n| 2025-08-05 | Mulai mendokumentasikan perjalanan coding.             |\n\n***\n\n## 🎯 Apa yang Gue Pelajari\n\n* **HTML** → struktur dasar halaman web.\n* **CSS** → styling sederhana, warna, font, layout.\n* **Mindset** → coding itu puzzle, bukan beban.\n\n> 💬 *\"Awalnya gue pikir coding itu ribet. Tapi setelah dicoba, gue ketagihan.\"*\n\n***\n\n## 🧑‍💻 Narasi Lengkap\n\nMalam itu, gue duduk di depan laptop lama. Dengan sedikit takut tapi banyak penasaran, gue membuka teks editor lalu menulis:\n\n```js\nconsole.log(\"Hello World\");\n\nBaris sederhana itu jadi pintu masuk gue ke dunia coding.\nSejak saat itu, gue belajar lewat tutorial, praktek, dan gak jarang ngadepin error yang bikin pusing.\n\nTapi setiap error adalah tantangan, dan setiap keberhasilan kecil bikin gue merasa naik level.\nBegitulah gue jatuh cinta dengan dunia pemrograman.\n```\n\n***\n\n🗂️ Dokumen Terkait\n\nChapter 2 – Learning JavaScript\n\nHTML & CSS Basics\n\n***\n\n✅ Kesimpulan\n\nChapter ini adalah fondasi perjalanan gue.\nCoding bukan sekadar skill, tapi cara gue menemukan diri gue sendiri.\n\n> 📌 Lanjut ke: Chapter 2 – Learning JavaScript\n\n## INI CUMAN EXAMPLE NANTI GW REWRITE LAGI\n",
     "_searchMeta": {
-      "cleanContent": "lorem ipsum dolor sit amet consectetur adipisicing elit numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime molestiae facilis aperiam et error illum vel ullam quis architecto dolore ullam x write the press release update the website contact the media syntax description test text:------------ :---------: ----------:header title here s thisparagraph text and morestrikethrough text getting started to begin using the documentation template follow these simple steps: start by cloning the repository to your local machine lorem ipsum dolor sit amet consectetur adipisicing elit reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium optio necessitatibus sequi veritatis aspernatur possimus quis repellat eum vitae eveniet blockquotes blockquotes are useful for emphasizing key points or quoting external sources: documentation is a love letter that you write to your future self - damian conway feel free to use blockquotes to highlight important information or quotes relevant to your documentation code examples with switch here a custom tab component from shadcn ui is used conclusion thank you for choosing the documentation template for your project whether you re documenting software apis or processes we re here to support you in creating clear and effective documentation happy documenting",
+      "cleanContent": "chapter 1 the beginning setiap developer punya cerita pertama ini adalah cerita gue headline dari nol seorang pemuda menemukan dunia coding jakarta 29 juli 2025 di tengah malam yang sunyi seorang pemuda bernama xeyyzu memutuskan untuk mengetik baris kode pertamanya tanpa mentor tanpa roadmap jelas hanya rasa penasaran yang menuntunnya ke dunia baru bernama programming timeline perjalanan tanggal peristiwa---------- -------------------------------------------------------2025-07-29 menulis console log hello world pertama kali 2025-07-30 belajar struktur dasar html css 2025-08-01 membuat halaman web sederhana pertama 2025-08-05 mulai mendokumentasikan perjalanan coding apa yang gue pelajari html struktur dasar halaman web css styling sederhana warna font layout mindset coding itu puzzle bukan beban awalnya gue pikir coding itu ribet tapi setelah dicoba gue ketagihan narasi lengkap malam itu gue duduk di depan laptop lama dengan sedikit takut tapi banyak penasaran gue membuka teks editor lalu menulis: dokumen terkait chapter 2 learning javascript html css basics kesimpulan chapter ini adalah fondasi perjalanan gue coding bukan sekadar skill tapi cara gue menemukan diri gue sendiri lanjut ke: chapter 2 learning javascript ini cuman example nanti gw rewrite lagi",
       "headings": [
-        "Getting Started",
-        "Blockquotes",
-        "Code Examples with switch",
-        "Conclusion"
+        "🗞️ HEADLINE",
+        "📅 Timeline Perjalanan",
+        "🎯 Apa yang Gue Pelajari",
+        "🧑‍💻 Narasi Lengkap",
+        "INI CUMAN EXAMPLE NANTI GW REWRITE LAGI"
       ],
       "keywords": [
-        "Getting Started",
-        "Blockquotes",
-        "Code Examples with switch",
-        "Conclusion"
+        "chapter 1",
+        "developer story",
+        "learning",
+        "html",
+        "css",
+        "🗞️ HEADLINE",
+        "📅 Timeline Perjalanan",
+        "🎯 Apa yang Gue Pelajari",
+        "🧑‍💻 Narasi Lengkap",
+        "INI CUMAN EXAMPLE NANTI GW REWRITE LAGI",
+        "## 🗞️ HEADLINE",
+        "",
+        "– Di tengah malam yang sunyi, seorang pemuda bernama",
+        "memutuskan untuk mengetik baris kode pertamanya.\\\nTanpa mentor, tanpa roadmap jelas, hanya",
+        "yang menuntunnya ke dunia baru bernama",
+        ".",
+        "HTML",
+        "CSS",
+        "Mindset",
+        "## 🧑‍💻 Narasi Lengkap\n\nMalam itu, gue duduk di depan laptop lama. Dengan sedikit takut tapi banyak penasaran, gue membuka teks editor lalu menulis:\n\n```js\nconsole.log(\"Hello World\");\n\nBaris sederhana itu jadi pintu masuk gue ke dunia coding.\nSejak saat itu, gue belajar lewat tutorial, praktek, dan gak jarang ngadepin error yang bikin pusing.\n\nTapi setiap error adalah tantangan, dan setiap keberhasilan kecil bikin gue merasa naik level.\nBegitulah gue jatuh cinta dengan dunia pemrograman.\n```",
+        "console.log(\"Hello World\")",
+        "js\nconsole.log(\"Hello World\");\n\nBaris sederhana itu jadi pintu masuk gue ke dunia coding.\nSejak saat itu, gue belajar lewat tutorial, praktek, dan gak jarang ngadepin error yang bikin pusing.\n\nTapi setiap error adalah tantangan, dan setiap keberhasilan kecil bikin gue merasa naik level.\nBegitulah gue jatuh cinta dengan dunia pemrograman."
       ]
     }
   },
   {
-    "slug": "/story/chapter",
-    "title": "chapter",
-    "description": "This section provides an overview of Introduction.",
-    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nThank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!\n",
+    "slug": "/story",
+    "title": "Introduction",
+    "description": "Pengantar untuk perjalanan gue di dunia coding yang gue tulis di bagian Story.",
+    "content": "# 🌟 Welcome to My Story\n\nSelamat datang di **Story**, bagian di mana gue menuangkan perjalanan pribadi gue dalam belajar dan bertumbuh sebagai developer.\\\nDi sini, bukan cuma tentang **teknologi**, tapi juga tentang **pengalaman, kegagalan, dan hal-hal kecil yang bikin gue terus maju**.\n\n> Ini bukan dokumentasi biasa. Ini adalah **timeline hidup gue di dunia pemrograman**.\n\n***\n\n## 🎯 Apa yang Akan Lo Temuin?\n\n* 📖 **Chapter Perjalanan** – catatan tiap langkah gue belajar (HTML, CSS, JS, dan seterusnya).\n* 🧪 **Eksperimen Gila** – project-project kecil yang gue bikin sambil belajar.\n* 💡 **Lesson Learned** – insight yang gue dapet dari tiap pengalaman coding.\n\n***\n\n## ✨ Kenapa Gue Nulis Story Ini?\n\nKarena setiap baris kode punya cerita. Gue pengen bikin tempat buat:\n\n* 🗂️ **ngarsipin progres gue**,\n* 🤝 **berbagi ke orang lain yang mungkin lagi belajar juga**,\n* 🔥 **ngeliat sejauh apa gue berkembang setiap harinya**.\n\n***\n\n> 🎮 **Siap?** Yuk mulai dari [Chapter 1 – The Beginning](/story/chapter) dan ikuti perjalanan gue!\n",
     "_searchMeta": {
-      "cleanContent": "lorem ipsum dolor sit amet consectetur adipisicing elit numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime molestiae facilis aperiam et error illum vel ullam quis architecto dolore ullam x write the press release update the website contact the media syntax description test text:------------ :---------: ----------:header title here s thisparagraph text and morestrikethrough text getting started to begin using the documentation template follow these simple steps: start by cloning the repository to your local machine lorem ipsum dolor sit amet consectetur adipisicing elit reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium optio necessitatibus sequi veritatis aspernatur possimus quis repellat eum vitae eveniet blockquotes blockquotes are useful for emphasizing key points or quoting external sources: documentation is a love letter that you write to your future self - damian conway feel free to use blockquotes to highlight important information or quotes relevant to your documentation code examples with switch here a custom tab component from shadcn ui is used conclusion thank you for choosing the documentation template for your project whether you re documenting software apis or processes we re here to support you in creating clear and effective documentation happy documenting",
+      "cleanContent": "welcome to my story selamat datang di story bagian di mana gue menuangkan perjalanan pribadi gue dalam belajar dan bertumbuh sebagai developer di sini bukan cuma tentang teknologi tapi juga tentang pengalaman kegagalan dan hal-hal kecil yang bikin gue terus maju ini bukan dokumentasi biasa ini adalah timeline hidup gue di dunia pemrograman apa yang akan lo temuin chapter perjalanan catatan tiap langkah gue belajar html css js dan seterusnya eksperimen gila project-project kecil yang gue bikin sambil belajar lesson learned insight yang gue dapet dari tiap pengalaman coding kenapa gue nulis story ini karena setiap baris kode punya cerita gue pengen bikin tempat buat: ngarsipin progres gue berbagi ke orang lain yang mungkin lagi belajar juga ngeliat sejauh apa gue berkembang setiap harinya siap yuk mulai dari chapter 1 the beginning dan ikuti perjalanan gue",
       "headings": [
-        "Getting Started",
-        "Blockquotes",
-        "Code Examples with switch",
-        "Conclusion"
+        "🎯 Apa yang Akan Lo Temuin?",
+        "✨ Kenapa Gue Nulis Story Ini?"
       ],
       "keywords": [
-        "Getting Started",
-        "Blockquotes",
-        "Code Examples with switch",
-        "Conclusion"
+        "story",
+        "developer journey",
+        "introduction",
+        "🎯 Apa yang Akan Lo Temuin?",
+        "✨ Kenapa Gue Nulis Story Ini?",
+        "Story",
+        "teknologi",
+        "pengalaman, kegagalan, dan hal-hal kecil yang bikin gue terus maju",
+        "timeline hidup gue di dunia pemrograman",
+        "Chapter Perjalanan",
+        "Eksperimen Gila",
+        "Lesson Learned",
+        "ngarsipin progres gue",
+        "berbagi ke orang lain yang mungkin lagi belajar juga",
+        "ngeliat sejauh apa gue berkembang setiap harinya",
+        "> 🎮"
       ]
     }
   },
+  {
+    "slug": "/story/introduction",
+    "title": "Introduction",
+    "description": "Pengantar untuk perjalanan gue di dunia coding yang gue tulis di bagian Story.",
+    "content": "# 🌟 Welcome to My Story\n\nSelamat datang di **Story**, bagian di mana gue menuangkan perjalanan pribadi gue dalam belajar dan bertumbuh sebagai developer.\\\nDi sini, bukan cuma tentang **teknologi**, tapi juga tentang **pengalaman, kegagalan, dan hal-hal kecil yang bikin gue terus maju**.\n\n> Ini bukan dokumentasi biasa. Ini adalah **timeline hidup gue di dunia pemrograman**.\n\n***\n\n## 🎯 Apa yang Akan Lo Temuin?\n\n* 📖 **Chapter Perjalanan** – catatan tiap langkah gue belajar (HTML, CSS, JS, dan seterusnya).\n* 🧪 **Eksperimen Gila** – project-project kecil yang gue bikin sambil belajar.\n* 💡 **Lesson Learned** – insight yang gue dapet dari tiap pengalaman coding.\n\n***\n\n## ✨ Kenapa Gue Nulis Story Ini?\n\nKarena setiap baris kode punya cerita. Gue pengen bikin tempat buat:\n\n* 🗂️ **ngarsipin progres gue**,\n* 🤝 **berbagi ke orang lain yang mungkin lagi belajar juga**,\n* 🔥 **ngeliat sejauh apa gue berkembang setiap harinya**.\n\n***\n\n> 🎮 **Siap?** Yuk mulai dari [Chapter 1 – The Beginning](/story/chapter) dan ikuti perjalanan gue!\n",
+    "_searchMeta": {
+      "cleanContent": "welcome to my story selamat datang di story bagian di mana gue menuangkan perjalanan pribadi gue dalam belajar dan bertumbuh sebagai developer di sini bukan cuma tentang teknologi tapi juga tentang pengalaman kegagalan dan hal-hal kecil yang bikin gue terus maju ini bukan dokumentasi biasa ini adalah timeline hidup gue di dunia pemrograman apa yang akan lo temuin chapter perjalanan catatan tiap langkah gue belajar html css js dan seterusnya eksperimen gila project-project kecil yang gue bikin sambil belajar lesson learned insight yang gue dapet dari tiap pengalaman coding kenapa gue nulis story ini karena setiap baris kode punya cerita gue pengen bikin tempat buat: ngarsipin progres gue berbagi ke orang lain yang mungkin lagi belajar juga ngeliat sejauh apa gue berkembang setiap harinya siap yuk mulai dari chapter 1 the beginning dan ikuti perjalanan gue",
+      "headings": [
+        "🎯 Apa yang Akan Lo Temuin?",
+        "✨ Kenapa Gue Nulis Story Ini?"
+      ],
+      "keywords": [
+        "story",
+        "developer journey",
+        "introduction",
+        "🎯 Apa yang Akan Lo Temuin?",
+        "✨ Kenapa Gue Nulis Story Ini?",
+        "Story",
+        "teknologi",
+        "pengalaman, kegagalan, dan hal-hal kecil yang bikin gue terus maju",
+        "timeline hidup gue di dunia pemrograman",
+        "Chapter Perjalanan",
+        "Eksperimen Gila",
+        "Lesson Learned",
+        "ngarsipin progres gue",
+        "berbagi ke orang lain yang mungkin lagi belajar juga",
+        "ngeliat sejauh apa gue berkembang setiap harinya",
+        "> 🎮"
+      ]
+    }
+  }
 ]

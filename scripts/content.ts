@@ -12,7 +12,7 @@ import { visit } from "unist-util-visit"
 
 import { Paths } from "@/lib/pageroutes"
 
-const docsDir = path.join(process.cwd(), "contents/docs")
+const contentDir = path.join(process.cwd(), "contents")
 const outputDir = path.join(process.cwd(), "public", "search-data")
 
 interface MdxJsxFlowElement extends Node {
@@ -31,14 +31,21 @@ function isRoute(
 }
 
 function createSlug(filePath: string): string {
-  const relativePath = path.relative(docsDir, filePath)
+  const relativePath = path.relative(contentDir, filePath)
   const parsed = path.parse(relativePath)
+  const dirParts = parsed.dir.split(path.sep)
+  const section = dirParts[0]
+  const slugPath =
+    dirParts.length > 1
+      ? `${section}/${dirParts.slice(1).join("/")}/${parsed.name}`
+      : `${section}/${parsed.name}`
 
-  const slugPath = parsed.dir ? `${parsed.dir}/${parsed.name}` : parsed.name
   const normalizedSlug = slugPath.replace(/\\/g, "/")
 
   if (parsed.name === "index") {
-    return `/${parsed.dir.replace(/\\/g, "/")}` || "/"
+    return `/${
+      dirParts.length > 1 ? `${section}/${dirParts.slice(1).join("/")}` : section
+    }`
   } else {
     return `/${normalizedSlug}`
   }
@@ -211,7 +218,7 @@ async function convertMdxToJson() {
   try {
     await ensureDirectoryExists(outputDir)
 
-    const mdxFiles = await getMdxFiles(docsDir)
+    const mdxFiles = await getMdxFiles(contentDir)
     const combinedData = []
 
     for (const file of mdxFiles) {

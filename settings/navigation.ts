@@ -2,13 +2,16 @@ import { PageRoutes } from "@/lib/pageroutes"
 
 export const Navigations = [
   {
-    title: "Docs",
-    href: `/docs${PageRoutes[0].href}`,
+    title: "Home",
+    href: "/",
   },
   {
-    title: "Home",
-    href: "https://xeyyzu.my.id",
-    external: true,
+    title: "Docs",
+    href: `/docs/basic-setup`,
+  },
+  {
+    title: "Story",
+    href: "/story/introduction",
   },
 ]
 

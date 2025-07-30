@@ -2,103 +2,114 @@ import { Paths } from "@/lib/pageroutes"
 
 export const Documents: Paths[] = [
   {
-    heading: "DevJourney",
-    title: "Story",
-    href: "/introduction",
-  },
-  {
-    heading: "Introduction",
-    title: "Basic Setup",
-    href: "/basic-setup",
-    items: [
+    "heading": "My Story",
+    "items": [
       {
-        title: "Installation",
-        href: "/installation",
+        "title": "Chapter 1 – The Beginning",
+        "href": "/story/chapter"
       },
       {
-        title: "Setup",
-        href: "/setup",
-      },
+        "title": "Introduction",
+        "href": "/story/introduction"
+      }
+    ]
+  },
+  {
+    "spacer": true
+  },
+  {
+    "heading": "Docs",
+    "items": [
       {
-        title: "Changelog",
-        href: "/changelog",
-      },
-    ],
-  },
-  {
-    spacer: true,
-  },
-  {
-    title: "Navigation",
-    href: "/navigation",
-    heading: "Documents",
-  },
-  {
-    title: "Structure",
-    href: "/structure",
-    items: [
-      {
-        title: "Deep",
-        href: "/deep",
-        items: [
+        "title": "Introduction",
+        "href": "/docs/basic-setup",
+        "items": [
           {
-            title: "Deeper",
-            href: "/deeper",
-            items: [
-              {
-                title: "Even deeper",
-                href: "/even-deeper",
-              },
-            ],
+            "title": "Changelog",
+            "href": "/docs/basic-setup/changelog"
           },
-        ],
-      },
-    ],
-  },
-  {
-    spacer: true,
-  },
-  {
-    title: "Markdown",
-    href: "/markdown",
-    heading: "Components",
-    items: [
-      {
-        title: "Cards",
-        href: "/cards",
+          {
+            "title": "Installation",
+            "href": "/docs/basic-setup/installation"
+          },
+          {
+            "title": "Setup",
+            "href": "/docs/basic-setup/setup"
+          }
+        ]
       },
       {
-        title: "Diagrams",
-        href: "/diagrams",
+        "title": "Introduction",
+        "href": "/docs/markdown",
+        "items": [
+          {
+            "title": "Cards",
+            "href": "/docs/markdown/cards"
+          },
+          {
+            "title": "Diagrams",
+            "href": "/docs/markdown/diagrams"
+          },
+          {
+            "title": "Filetree",
+            "href": "/docs/markdown/filetree"
+          },
+          {
+            "title": "Lists",
+            "href": "/docs/markdown/lists"
+          },
+          {
+            "title": "Maths",
+            "href": "/docs/markdown/maths"
+          },
+          {
+            "title": "Notes",
+            "href": "/docs/markdown/notes"
+          },
+          {
+            "title": "Steps",
+            "href": "/docs/markdown/steps"
+          },
+          {
+            "title": "Table",
+            "href": "/docs/markdown/table"
+          },
+          {
+            "title": "Tabs",
+            "href": "/docs/markdown/tabs"
+          }
+        ]
       },
       {
-        title: "Filetree",
-        href: "/filetree",
+        "title": "Navigation",
+        "href": "/docs/navigation"
       },
       {
-        title: "Lists",
-        href: "/lists",
+        "title": "Introduction",
+        "href": "/docs/random"
       },
       {
-        title: "Maths",
-        href: "/maths",
-      },
-      {
-        title: "Notes",
-        href: "/notes",
-      },
-      {
-        title: "Steps",
-        href: "/steps",
-      },
-      {
-        title: "Table",
-        href: "/table",
-      },
-      {
-        title: "Tabs",
-        href: "/tabs",
-      },
-    ],
-  },
+        "title": "Structure",
+        "href": "/docs/structure",
+        "items": [
+          {
+            "title": "Introduction",
+            "href": "/docs/structure/deep",
+            "items": [
+              {
+                "title": "Introduction",
+                "href": "/docs/structure/deep/deeper",
+                "items": [
+                  {
+                    "title": "Introduction",
+                    "href": "/docs/structure/deep/deeper/even-deeper"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]
